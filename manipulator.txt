@@ -1,0 +1,24 @@
+#Document Commands
+!PRODUCT,Manipulator
+!VERSION,Version: 1.00.00
+!DOC_TYPE,Operator's Manual
+!OUT_DIR,manipulator/
+!VALID_PAGES,4
+!VALID_TEXT,
+!TEMPLATE_COVER,required/htm/template_index_print.htm,index_print.htm
+
+#Documentation Generation
+!INCLUDE,required/intro_.txt,1
+!INCLUDE,required/overview_qs_.txt,1
+
+*,Equipment Guide,,equipment_.htm,,,
+4**,Hand Controller,controller_manip.html,pro_4/htm/controller_manip.htm,,,
+3**,Control Panel,controller_manip.html,control_panel.htm,,,
+
+*,Software Guide,instrument_acc_manip.html,pro_4/htm/instrument_acc_manip.htm,,,
+
+*,Operations Guide,,operations_.htm,,,
+
+*,Maintenance Guide,,maintenance_.htm,,,
+
+*,Compatibility Guide,,compatibility_.htm,,,
